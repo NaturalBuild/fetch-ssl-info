@@ -1,0 +1,21 @@
+{
+    "name": "naturalbuild/fetch-ssl-info",
+    "description": "Fetch SSL info using php",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["PHP", "ssl"],
+    "authors": [
+        {
+            "name": "Saddam Hossain",
+            "email": "saddamrhossain@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ssl\\": "Ssl"
+        }
+    },
+    "require": {
+        "php": ">=5.6"
+    }
+}
