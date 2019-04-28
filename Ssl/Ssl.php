@@ -1,6 +1,16 @@
 <?php 
 namespace Ssl;
 
+/**
+ * Fetch SSL
+ *
+ *
+ * @author Saddam Hossain <saddamrhossain@gmail.com>
+ * @see https://stackoverflow.com/a/46115387
+ *
+ * @version 1
+ */
+
 class Ssl {
 
     public $domain, $validFrom, $validTo, $issuer, $validity, $validitytot, $crtValRemaining;
